@@ -87,7 +87,7 @@ div7.absolute{
     width: 100px;
     height: 100px; 
     border: 2px solid #73AD21;
-    background-color: skyblue;
+    background-color: yellow;
 }
 div8.absolute{
     position: absolute;
@@ -101,21 +101,21 @@ div9.absolute{
    left: 0px;
    width: 97.5%;
    height: 80px;
-   border-color: black;
+   border-color: red;
    background-color:black;
    padding: 20px;
 }
 div10.absolute{
-    background-color:white;
+    background-color:black;
     position: absolute;
     top: 680px;
     left: 0px;
     height: 50px;
     width: 97.5%;
-    color: red;
+    color: white;
     position: center;
     text-align:center;
-    border-color: white;
+    border-color: red;
     padding: 20px;
 }
 div11.absolute{
