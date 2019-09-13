@@ -44,7 +44,7 @@ table a{
     text-decoration: none;
 }
 td:hover{
-    background-color: brown;
+    background-color: blue;
     transition:0.5s;
 }
 .image1{
