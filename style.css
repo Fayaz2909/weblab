@@ -8,7 +8,7 @@ body{
 .banner{
     text-align:center;
     font-size: 1.4rem;
-    background-image: linear-gradient(teal,white);
+    background-image: linear-gradient(teal,lightyellow);
     border-radius: 50px;
     margin-bottom: 10px;
     position:fixed;
@@ -44,7 +44,7 @@ table a{
     text-decoration: none;
 }
 td:hover{
-    background-color: gray;
+    background-color: red;
     transition:0.5s;
 }
 .image1{
@@ -96,42 +96,42 @@ td:hover{
     vertical-align: middle;
 }
 div2.absolute{
-    background-image:linear-gradient(blue,white);
+    background-image:linear-gradient(lightblue,white);
     position: absolute;
    
     left: 100px;
     width: 100px;
     height: 100px;
-    border :2px solid #73AD21;
+    border :2px solid violet;
     
 
 }
 div3.absolute{
-    background-image:linear-gradient(red,white);
+    background-image:linear-gradient(lightred,white);
      position: absolute;
      top:120px;
     left: 150px;
     width: 100px;
     height: 100px;
-    border:2px solid #73AD21;
+    border:2px solid blue;
 }
 div4.absolute{
-    background-image:linear-gradient(green,white);
+    background-image:linear-gradient(lightgreen,white);
      position: absolute;
      top:180px;
     left: 200px;
     width: 100px;
     height: 100px;
-    border:2px solid #73AD21;
+    border:2px solid red;
 }
 div5.absolute{
-    background-image:linear-gradient(yellow,white);
+    background-image:linear-gradient(violet,white);
      position: absolute;
      top:240px;
     left: 250px;
     width: 100px;
     height: 100px;
-   border:2px solid #73AD21;
+   border:2px solid green;
 }
 .outertext{
     margin:0;
@@ -145,7 +145,7 @@ div5.absolute{
 .text{
     padding:1%;
     display: inline-block;
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(2,2,2,1.5);
     border-radius: 20px;
     color:white;
 }
