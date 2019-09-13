@@ -8,7 +8,7 @@ body{
 .banner{
     text-align:center;
     font-size: 1.4rem;
-    background-image: linear-gradient(teal,white);
+    background-image: linear-gradient(lightyellow,white);
     border-radius: 50px;
     margin-bottom: 10px;
     position:fixed;
@@ -36,15 +36,15 @@ embed{
 }
 table{
     text-align: center;
-    background-color: teal;
-    color:white;
+    background-color: white;
+    color:teal;
 }
 table a{
-    color:white;
+    color:red;
     text-decoration: none;
 }
 td:hover{
-    background-color: gray;
+    background-color: brown;
     transition:0.5s;
 }
 .image1{
