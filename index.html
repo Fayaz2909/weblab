@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -6,15 +7,31 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Digital Clock</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles6.css">
     </head>
     <body>
-        <p>External link:<a href="fayazweb1.html">Experiment 1</a></p>
-        <p>External link:<a href="fayazweb2.html">Experiment 2</a></p>
-        <p>External link:<a href="fayazweb3.html">Experiment 3</a></p>
-        <p>External link:<a href="fayazweb4.html">Experiment 4</a></p>
-        <p>External link:<a href="exe5.html">Experiment 5</a></p>
+        <nav>
+            <a href='index.html'>Digital Clock</a>
+            <a href='dback.html'>Dynamic Background</a>
+            <a href='mouse.html'>Changing Font Size</a>
+            <a href='car.html'>Moving Car</a>
+            <a href='student.html'>Student</a>
+        </nav>
+        <div style='text-align: center;'><p id='time' style='font-size: 10rem;'></p></div>
+        
+        <script>
+            setInterval(function(){
+            
+                var d = new Date();
+                var h = d.getHours();
+                var m = d.getMinutes();
+                var s = d.getSeconds();
+                document.getElementById('time').innerHTML=h+':'+m+":"+s;
+                
+            },1000);
+        </script>
     </body>
 </html>
